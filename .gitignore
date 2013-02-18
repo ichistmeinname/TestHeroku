@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 dist/
 static/tmp/
 config/client_session_key.aes
 *.hi
 *.o
 *.sqlite3
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
