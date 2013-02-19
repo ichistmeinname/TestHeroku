@@ -62,7 +62,7 @@ library
                  , network-conduit               == 0.6.2.2
                  , mime-types                    == 0.1.0.2
                  , monad-logger                  == 0.2.3.2
---                 , shakespear                    == 1.0.2
+                 , shakespear-js                 == 1.1.1
                  , yesod-static                  == 1.1.1.2
                  , yesod-default                 == 1.1.3
 --                 , text                          == 0.11
