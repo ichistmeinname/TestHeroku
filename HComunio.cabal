@@ -44,6 +44,7 @@ library
                  --, yesod
                 -- , yesod-core                    >= 1.1.7      && < 1.2
                  , ansi-terminal                 >= 0.5.5.1    && < 0.5.5.2
+                 , attoparsec                    >= 0.10.3     && < 0.10.4
                  , yesod-static                  >= 1.1        && < 1.2
                  , yesod-default                 >= 1.1        && < 1.2
                  --, yesod-form                    >= 1.1        && < 1.3
