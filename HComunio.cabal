@@ -50,6 +50,7 @@ library
                  , zlib-conduit                  >= 0.5.0.3    && < 0.5.4
                  , network-conduit               >= 0.6.2.2    && < 0.6.3
                  , monad-logger                  >= 0.2.3.2    && < 0.2.4
+                 , crypto-conduit                >= 0.4.3      && < 0.4.4
                  , conduit                       >=0.5         && < 0.6
                  , aeson                         >= 0.6.0      && < 0.6.1
                  , yesod-static                  >= 1.1        && < 1.2
