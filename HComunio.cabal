@@ -53,7 +53,8 @@ library
                  , crypto-conduit                >= 0.4.3      && < 0.4.4
                  , crypto-api                    >= 0.10.2     && < 0.10.3
                  , conduit                       >=0.5         && < 0.6
-                 , aeson                         >= 0.6.1.0      && < 0.6.2
+                 , aeson                         >= 0.6.1.0    && < 0.6.2
+                 , base64-bytestring             >= 1.0.0.0    && < 1.1
                  , yesod-static                  >= 1.1        && < 1.2
                  , yesod-default                 >= 1.1        && < 1.2
                  --, yesod-form                    >= 1.1        && < 1.3
