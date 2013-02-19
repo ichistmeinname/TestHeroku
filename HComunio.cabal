@@ -77,7 +77,7 @@ executable         HComunio
     hs-source-dirs:    app
     build-depends:     base
                      , HComunio
-                     , yesod-default
+                     --, yesod-default
 
     ghc-options:       -threaded -O2
 
