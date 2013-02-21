@@ -1,4 +1,4 @@
-name:              HComunio
+name:              TestHeroku
 version:           0.0.1
 cabal-version:     >= 1.8
 build-type:        Simple
@@ -115,7 +115,7 @@ library
                  -- , zlib-conduit                  == 0.5.0.3
                  , zlib                          >= 0.5
 
-executable         HComunio
+executable         TestHeroku
     if flag(library-only)
         Buildable: False
 
@@ -125,4 +125,4 @@ executable         HComunio
                      , HComunio
                      , yesod-default
 
-    ghc-options:       -threaded -O2 -v
+    ghc-options:       -threaded -O2
