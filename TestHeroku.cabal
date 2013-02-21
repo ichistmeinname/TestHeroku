@@ -50,11 +50,11 @@ library
                  , clientsession                 >= 0.8        && < 0.9
                  , bytestring                    >= 0.9        && < 0.10
                  , text                          >= 0.11       && < 0.12
-                 , persistent                    >= 1.0        && < 1.1
-                 , persistent-sqlite             >= 1.0        && < 1.1
-                 , blaze-html                    >= 0.5        && < 0.6
-                 , crypto-conduit                >= 0.4.3      && < 0.5
-                 , ctypto-api                    >= 0.10.2     && < 0.11
+                 -- , persistent                    >= 1.0        && < 1.1
+                 -- , persistent-sqlite             >= 1.0        && < 1.1
+                 -- , blaze-html                    >= 0.5        && < 0.6
+                 -- , crypto-conduit                >= 0.4.3      && < 0.5
+                 -- , ctypto-api                    >= 0.10.2     && < 0.11
                  , template-haskell
                  , hamlet                        >= 1.1        && < 1.2
                  , shakespeare-css               >= 1.0        && < 1.1
@@ -78,9 +78,9 @@ executable         TestHeroku
     build-depends:     base
                      , TestHeroku
                      , yesod-default
-                     , conduit          == 0.5.*
-                     , wai              == 1.3.*
-                     , warp             == 1.3.*
-                     , http-types       == 0.7.*
+                     -- , conduit          == 0.5.*
+                     -- , wai              == 1.3.*
+                     -- , warp             == 1.3.*
+                     -- , http-types       == 0.7.*
 
     ghc-options:       -threaded -O2
