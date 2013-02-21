@@ -1,5 +1,5 @@
 name:              HComunio
-version:           0.0.0
+version:           0.0.1
 cabal-version:     >= 1.8
 build-type:        Simple
 
@@ -24,7 +24,7 @@ library
         cpp-options:   -DDEVELOPMENT
         ghc-options:   -Wall -O0
     else
-        ghc-options:   -Wall -O2
+        ghc-options:   -Wall -O2 -v
 
     extensions: TemplateHaskell
                 QuasiQuotes
