@@ -76,7 +76,7 @@ executable         TestHeroku
     main-is:           main.hs
     hs-source-dirs:    app
     build-depends:     base
-                     -- , HComunio
+                     , TestHeroku
                      , yesod-default
                      , conduit          == 0.5.*
                      , wai              == 1.3.*
