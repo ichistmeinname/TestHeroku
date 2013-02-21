@@ -22,9 +22,9 @@ library
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT
-        ghc-options:   -Wall -O0 -v
+        ghc-options:   -v -Wall -O0
     else
-        ghc-options:   -Wall -O2 -v
+        ghc-options:   -v -Wall -O2
 
     extensions: TemplateHaskell
                 QuasiQuotes
