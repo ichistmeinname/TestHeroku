@@ -73,7 +73,7 @@ executable         TestHeroku
     main-is:           main.hs
     hs-source-dirs:    app
     build-depends:     base
-                     , HComunio
+                     -- , HComunio
                      , yesod-default
 
     ghc-options:       -threaded -O2
