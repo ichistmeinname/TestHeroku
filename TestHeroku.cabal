@@ -54,9 +54,9 @@ library
                  , persistent-sqlite             >= 1.0        && < 1.2
                  , template-haskell
                  , hamlet                        >= 1.1        && < 1.2
-                 , shakespeare                   >= 1.0        && < 1.0.3
+                 , shakespeare                   >= 1.0        && < 1.2
                  , shakespeare-css               >= 1.0        && < 1.1
-                 , shakespeare-js                >= 1.0        && < 1.0.3
+                 , shakespeare-js                >= 1.1        && < 1.2
                  , shakespeare-text              >= 1.0        && < 1.1
                  , hjsmin                        >= 0.1        && < 0.2
                  , monad-control                 >= 0.3        && < 0.4
