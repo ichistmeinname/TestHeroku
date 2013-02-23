@@ -80,6 +80,6 @@ executable         TestHeroku
                      , conduit          == 0.5.*
                      -- , wai              == 1.3.*
                      -- , warp             == 1.3.*
-                     -- , http-types       == 0.7.*
+                     , http-types       == 0.7.*
 
     ghc-options:       -threaded -O2
