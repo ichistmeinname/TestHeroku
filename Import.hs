@@ -8,7 +8,7 @@ import           Yesod                as Import hiding (Route (..))
 
 import           Control.Applicative  as Import (pure, (<$>), (<*>))
 import           Data.Text            as Import (Text)
-import           Data.Aeson           as Import hiding (Object)
+import           Data.Aeson           as Import hiding (Object (..))
 
 import           Foundation           as Import
 import           Settings             as Import
