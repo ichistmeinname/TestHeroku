@@ -105,10 +105,10 @@ library
                  , word8 == 0.0.3
                  , yaml == 0.8.2
                  , yesod
-                 , yesod-core
-                 , yesod-default
-                 , yesod-routes
-                 , yesod-static
+                 , yesod-core <= 1.1.7.1
+                 , yesod-default <= 1.1.3
+                 , yesod-routes <= 1.1.1.1
+                 , yesod-static <= 1.1.1.2
                  , zlib == 0.5.4.0
 
 executable         TestHeroku
