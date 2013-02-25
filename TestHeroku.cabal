@@ -3,14 +3,6 @@ version:           0.0.1
 cabal-version:     >= 1.8
 build-type:        Simple
 
-Flag dev
-    Description:   Turn on development settings, like auto-reload templates.
-    Default:       False
-
-Flag library-only
-    Description:   Build for use with "yesod devel"
-    Default:       False
-
 library
     exposed-modules: Application
                      Foundation
@@ -20,11 +12,7 @@ library
                      Settings.Development
                      Handler.Home
 
-    if flag(dev) || flag(library-only)
-        cpp-options:   -DDEVELOPMENT
-        ghc-options:   -Wall -O0
-    else
-        ghc-options:   -Wall -O2
+    ghc-options:   -Wall -O2
 
     extensions: TemplateHaskell
                 QuasiQuotes
