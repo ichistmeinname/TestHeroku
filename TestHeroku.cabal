@@ -27,7 +27,7 @@ library
                 EmptyDataDecls
                 NoMonomorphismRestriction
 
-    build-depends: -- base
+    build-depends: base
                  -- , aeson == 0.6.1.0
                  -- , attoparsec == 0.10.3.0
                  -- , base-unicode-symbols == 0.2.2.4
