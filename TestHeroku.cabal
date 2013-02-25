@@ -117,7 +117,7 @@ executable         TestHeroku
 
     main-is:           main.hs
     hs-source-dirs:    app
-    build-depends:     base
+    build-depends:     base == 4.5.0.0
                      , TestHeroku
                      , yesod-default
                      , ghc
