@@ -116,9 +116,12 @@ executable         TestHeroku
 
     main-is:           main.hs
     hs-source-dirs:    app
-    build-depends:     base
-                     , TestHeroku
-                     , yesod-default
-                     , ghc
+    build-depends:   base          == 4.5.*
+                     , http-types   
+                     , template-haskell 
+                     , wai           
+                     , wai-extra     
+                     , warp          
+                     , yesod         == 1.1.9
 
     ghc-options:       -threaded -O2
