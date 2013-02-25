@@ -175,5 +175,6 @@ executable         TestHeroku
     build-depends:     base
                      , TestHeroku
                      , yesod-default
+                     , ghc == 7.4.1
 
     ghc-options:       -threaded -O2
