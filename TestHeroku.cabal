@@ -43,7 +43,7 @@ library
                  , aeson == 0.6.1.0
                  , attoparsec == 0.10.3.0
                  , base64-bytestring == 1.0.0.0
-                 -- , base64-conduit == 0.5.1
+                 , base64-conduit == 0.5.1
                  , blaze-builder-conduit == 0.5.0.3
                  , blaze-html == 0.5.1.3
                  , blaze-markup == 0.5.1.4
@@ -71,6 +71,7 @@ library
                  , http-types == 0.7.3.0.1
                  , lifted-base == 0.2.0.2
                  -- , monad-control == 0.3.1.4
+                 , monad-logger == 0.2.3.2
                  , network == 2.4.1.0
                  , network-conduit == 0.6.2.2
                  , optparse-applicative == 0.5.2.1
@@ -83,6 +84,7 @@ library
                  , shakespeare-js == 1.1.1
                  , shakespeare-text == 1.0.0.5
                  , split == 0.2.1.2
+                 , system-fileio == 0.3.11
                  , tar == 0.4.0.1
                  , template-haskell
                  , text == 0.11.2.3
