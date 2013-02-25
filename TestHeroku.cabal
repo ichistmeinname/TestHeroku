@@ -167,14 +167,12 @@ library
                  -- , tar == 0.4.0.1
                  -- , optparse-applicative == 0.4.3
 executable         TestHeroku
-    if flag(library-only)
-        Buildable: False
 
     main-is:           main.hs
     hs-source-dirs:    app
     build-depends:     base
-                     -- , TestHeroku
+                     , TestHeroku
                      , yesod-default
-                     , ghc == 7.4.1
+                     , ghc
 
     ghc-options:       -threaded -O2
