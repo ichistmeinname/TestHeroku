@@ -27,7 +27,7 @@ library
                 EmptyDataDecls
                 NoMonomorphismRestriction
 
-    build-depends: base                          >= 4          && < 5
+    build-depends: base == 4.5.0.0
                  , aeson == 0.6.1.0
                  , attoparsec == 0.10.3.0
                  , base-unicode-symbols == 0.2.2.4
@@ -111,7 +111,7 @@ library
                  , yesod-routes
                  , yesod-static
                  , zlib == 0.5.4.0
-                 , ghc == 7.4.1
+                 , ghc
 
 executable         TestHeroku
 
