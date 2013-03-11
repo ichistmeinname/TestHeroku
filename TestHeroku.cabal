@@ -15,7 +15,7 @@ executable         TestHeroku
                    , yesod-default <= 1.1.3
                    , yesod-static <= 1.1.1.2
                    , template-haskell
-                   , shakespeare-js < 1.0.2
+                   , shakespeare-js <= 1.0.2
                    , shakespeare-text == 1.0.0.5
                    , clientsession == 0.8.1
                    , hjsmin == 0.1.4
