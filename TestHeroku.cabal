@@ -60,6 +60,7 @@ executable         TestHeroku
                      , wai
                      , warp
                      , hamlet
+                     , data-default == 0.5.0
     extensions: TemplateHaskell
                 QuasiQuotes
                 OverloadedStrings
