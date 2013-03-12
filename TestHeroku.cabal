@@ -41,21 +41,20 @@ executable         TestHeroku
                      , wai-extra     
                      , warp          
                      , yesod         == 1.1.9
-                   -- , hamlet == 1.1.3.1
-                   -- , data-default == 0.5.0
-                   -- , yaml == 0.8.2
-                   -- , text == 0.11.2.3
-                   -- , yesod <= 1.1.2
-                   -- , yesod-default <= 1.1.3
-                   -- , yesod-static <= 1.1.1.2
-                   -- , template-haskell
-                   -- , shakespeare-js <= 1.0.2
-                   -- , shakespeare-text == 1.0.0.5
-                   -- , clientsession == 0.8.1
-                   -- , hjsmin == 0.1.4
-                     , http-conduit
-                   -- , http-conduit == 1.8.7
-                   -- , wai-extra == 1.3.2
+                     , hamlet == 1.1.3.1
+                     , data-default == 0.5.0
+                     , yaml == 0.8.2
+                     , text == 0.11.2.3
+                     , yesod <= 1.1.2
+                     , yesod-default <= 1.1.3
+                     , yesod-static <= 1.1.1.2
+                     , template-haskell
+                     , shakespeare-js <= 1.0.2
+                     , shakespeare-text == 1.0.0.5
+                     , clientsession == 0.8.1
+                     , hjsmin == 0.1.4
+                     , http-conduit == 1.8.7
+                     , wai-extra == 1.3.2
     extensions: TemplateHaskell
                 QuasiQuotes
                 OverloadedStrings
