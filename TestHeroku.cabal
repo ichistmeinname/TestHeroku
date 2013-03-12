@@ -59,6 +59,7 @@ executable         TestHeroku
     build-depends:     base          == 4.5.*
                      , wai
                      , warp
+                     , hamlet
     extensions: TemplateHaskell
                 QuasiQuotes
                 OverloadedStrings
