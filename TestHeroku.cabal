@@ -28,8 +28,8 @@ library
                 NoMonomorphismRestriction
 
     build-depends: base
-                 , shakespeare >= 1.0.3
-                 , shakespeare-js >= 1.0.2
+                 , shakespeare == 1.0.2
+                 , shakespeare-js == 1.1.1
 
 executable         TestHeroku
 
