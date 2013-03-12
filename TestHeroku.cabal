@@ -28,7 +28,7 @@ library
                 NoMonomorphismRestriction
 
     build-depends: base
-                 , shakespeare-js == 1.0.2
+                 , shakespeare < 1.0.3
 
 executable         TestHeroku
 
