@@ -63,6 +63,7 @@ executable         TestHeroku
                      , attoparsec-conduit == 0.5.0.3
                      , conduit == 0.5.6
                      , crypto-api == 0.10.2
+                     , http-types-0.7.3.0.1
     extensions: TemplateHaskell
                 QuasiQuotes
                 OverloadedStrings
