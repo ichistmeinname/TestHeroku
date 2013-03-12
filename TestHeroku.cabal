@@ -29,6 +29,7 @@ library
 
     build-depends: base
                  , shakespeare < 1.0.3
+		 , shakespeare-js < 1.0.2
 
 executable         TestHeroku
 
