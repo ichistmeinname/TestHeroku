@@ -53,7 +53,7 @@ build-type:        Simple
 --                  , data-default == 0.5.0
 --                  , yaml == 0.8.2
 
-executable         TestHeroku
+executable         HComunio
 
     main-is:           app/main.hs
     build-depends:     base          == 4.5.*
