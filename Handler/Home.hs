@@ -12,29 +12,26 @@ import Import
 -- inclined, or create a single monolithic file.
 getHomeR :: Handler RepHtml
 getHomeR = do
-    (formWidget, formEnctype) <- generateFormPost sampleForm
-    let submission = Nothing :: Maybe (FileInfo, Text)
-        handlerName = "getHomeR" :: Text
-        testName    = "test123" :: Text
+    let optional    = $(widgetFile "diff")
     defaultLayout $ do
-        aDomId <- lift newIdent
         setTitle "Welcome To Yesod!"
         $(widgetFile "homepage")
 
 postHomeR :: Handler RepHtml
 postHomeR = do
-    ((result, formWidget), formEnctype) <- runFormPost sampleForm
-    let handlerName = "postHomeR" :: Text
-        testName    = "test456" :: Text
-        submission = case result of
-            FormSuccess res -> Just res
-            _ -> Nothing
+    let optional    = $(widgetFile "diff")
     defaultLayout $ do
-        aDomId <- lift newIdent
         setTitle "Welcome To Yesod!"
         $(widgetFile "homepage")
 
-sampleForm :: Form (FileInfo, Text)
-sampleForm = renderDivs $ (,)
-    <$> fileAFormReq "Choose a file"
-    <*> areq textField "What's on the file?" Nothing
+getGamedayR :: Int -> Handler RepHtml
+getGamedayR gameNo = do
+  let gameday = gameNo
+      file 25 = $(widgetFile "gameday25")
+      file 24 = $(widgetFile "gameday25")
+      file 23 = $(widgetFile "gameday25")
+      file 22 = $(widgetFile "gameday25")
+      optional = file gameNo
+  defaultLayout $ do
+     setTitle "Punktestand des Spieltages"
+     $(widgetFile "gameday")
