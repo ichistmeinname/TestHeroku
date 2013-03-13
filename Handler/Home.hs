@@ -25,10 +25,10 @@ postHomeR :: Handler RepHtml
 postHomeR = do
     ((result, formWidget), formEnctype) <- runFormPost sampleForm
     let handlerName = "postHomeR" :: Text
+        testName    = "test456" :: Text
         submission = case result of
             FormSuccess res -> Just res
             _ -> Nothing
-
     defaultLayout $ do
         aDomId <- lift newIdent
         setTitle "Welcome To Yesod!"
